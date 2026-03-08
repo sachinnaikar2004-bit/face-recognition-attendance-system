@@ -1,0 +1,32 @@
+# FastAPI server
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+
+# database
+motor==3.1.2
+pymongo==4.3.3
+
+# data validation
+pydantic==1.10.13
+email-validator==2.3.0
+python-dotenv==1.0.0
+
+# authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# AI / face recognition
+deepface==0.0.79
+tensorflow==2.12.0
+opencv-python==4.7.0.72
+pillow==9.5.0
+numpy==1.24.3
+
+# async file handling
+aiofiles==23.1.0
+
+# testing
+pytest==7.3.1
+pytest-asyncio==0.21.0
+httpx==0.24.1
